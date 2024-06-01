@@ -1,4 +1,4 @@
-package com.example.jokeapp
+package com.example.jokeapp.core.data.model
 
 data class Joke(
     val name: String,

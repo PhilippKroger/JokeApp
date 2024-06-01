@@ -1,5 +1,6 @@
-package com.example.jokeapp
+package com.example.jokeapp.core.data.api
 
+import com.example.jokeapp.core.data.model.Joke
 import retrofit2.Call
 import retrofit2.http.GET
 

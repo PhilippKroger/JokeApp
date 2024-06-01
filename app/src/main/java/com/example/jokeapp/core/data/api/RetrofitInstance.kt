@@ -1,4 +1,4 @@
-package com.example.jokeapp
+package com.example.jokeapp.core.data.api
 
 import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory

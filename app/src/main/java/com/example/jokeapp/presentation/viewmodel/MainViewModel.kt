@@ -1,14 +1,13 @@
-package com.example.jokeapp
+package com.example.jokeapp.presentation.viewmodel
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
+import com.example.jokeapp.core.data.model.Joke
+import com.example.jokeapp.core.data.repository.JokeRepository
 import com.example.jokeapp.databinding.ActivityMainBinding
 import retrofit2.Call
 import retrofit2.Response
-import retrofit2.Retrofit
-import retrofit2.converter.gson.GsonConverterFactory
-import javax.security.auth.callback.Callback
 
 class MainViewModel(private val repository: JokeRepository): ViewModel() {
 

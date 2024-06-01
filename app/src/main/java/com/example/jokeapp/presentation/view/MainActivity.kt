@@ -1,4 +1,4 @@
-package com.example.jokeapp
+package com.example.jokeapp.presentation.view
 
 import android.os.Bundle
 import androidx.activity.enableEdgeToEdge
@@ -7,6 +7,10 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
 import androidx.lifecycle.Observer
+import com.example.jokeapp.core.data.repository.JokeRepository
+import com.example.jokeapp.presentation.viewmodel.MainViewModel
+import com.example.jokeapp.presentation.viewmodel.MainViewModelFactory
+import com.example.jokeapp.R
 import com.example.jokeapp.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {
