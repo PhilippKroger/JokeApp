@@ -6,8 +6,8 @@ When you click on the button via the API using Retrofit, a post with an id diffe
 <h3>Project Description</h3><br>
 This Android application is built using Kotlin and follows the MVVM (Model-View-ViewModel) architecture. It demonstrates how to fetch and display data from an API using Retrofit for network calls. The project is structured to ensure clear separation of concerns, maintainability, and scalability.
 
-<h5>Key Components:</h5><br>
-<b>Core Layer:</b><br>
+<h5>Key Components:</h5>
+<b>Core Layer:</b>
 
 <b>Data:</b> <br>
 <b>API:</b> Contains the PostService interface for API endpoints and RetrofitInstance for Retrofit configuration.<br>
